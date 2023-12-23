@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import YOLO
 from sort import *
 
-video_path = r'C:\Users\Admin\Desktop\computervision videos/carsvid.mp4'
+video_path = 'Place the path to your video file here'
 cap = cv2.VideoCapture(video_path)
 model = YOLO('yolov8n.pt')
 
